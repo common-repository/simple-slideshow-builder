@@ -1,0 +1,94 @@
+
+#banner-fade,
+#banner-slide{
+}
+
+ul.bjqs-controls li a{
+	display:block;
+	padding:10px;
+	color:#000;
+	text-decoration: none;
+}
+
+ul.bjqs-controls li a:hover{
+	color:#fff;
+}
+
+ol.bjqs-markers li {
+
+	height:15px;
+	width:15px;
+	background:lightgrey;
+	color:#fff;
+	margin:5px;
+	font-size:15px;
+}
+
+
+ol.bjqs-markers li a{
+	opacity:0;
+	text-decoration: none;
+}
+
+ol.bjqs-markers li.active-marker a,
+ol.bjqs-markers li a:hover
+{
+
+}
+
+p.bjqs-caption
+{
+opacity:0.7;
+transition:opacity 1s;
+color:white;
+}
+
+
+
+
+p.bjqs-caption:hover
+{
+opacity:1.0;}
+/* Basic jQuery Slider essential styles */
+ul.bjqs{position:absolute;list-style:none;padding:0;margin:0;overflow:hidden;}
+li.bjqs-slide{position:absolute; display:none;}
+ul.bjqs-controls{list-style:none;margin:0;padding:0;z-index:9999;}
+ul.bjqs-controls li a{}
+ul.bjqs-controls li.bjqs-next a{position:absolute;bottom:-60px;right:-30px;background-image:url('http://iconizer.net/files/Brightmix/orig/monotone_arrow_right.png');background-size:100% 100%;background-position:center center;height:50px;width:50px;transition:all 1s;
+}
+
+
+
+ul.bjqs-controls li.bjqs-prev a{position:absolute;bottom:-60px;left:-30px;background-image:url('http://cdn4.iconfinder.com/data/icons/brightmix/128/monotone_arrow_left_small.png');background-size:100% 100%;background-position:center center;height:50px;width:50px;transition:all 1s;}
+ul.bjqs-controls li.bjqs-next a:hover {background-color:rgba(255,255,255,0.3);}
+ul.bjqs-controls li.bjqs-prev a:hover {background-color:rgba(255,255,255,0.3);}
+
+ol.bjqs-markers{list-style: none; z-index:999999999;position:absolute;bottom:-50px;left:20px;}
+ol.bjqs-markers.h-centered{text-align: center;}
+ol.bjqs-markers li{float:left;}
+ol.bjqs-markers li a{}
+
+p.bjqs-caption
+{
+display:block;
+width:96%;
+margin:0;
+padding:2%;
+position:absolute;
+bottom:-200%;
+left:0px;
+transition:bottom 0.3s;
+}
+
+#banner-fade:hover p.bjqs-caption { bottom:0%; }
+
+
+
+
+
+
+
+
+
+
+

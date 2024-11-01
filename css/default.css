@@ -1,0 +1,63 @@
+#banner-fade,
+#banner-slide{
+	
+      
+}
+
+ul.bjqs-controls li a{
+	display:block;
+	padding:10px;
+	color:#000;
+	text-decoration: none;
+
+}
+
+ul.bjqs-controls li a:hover{
+	color:#fff;
+}
+
+
+#banner-fade ul li img {
+
+}
+
+ol.bjqs-markers li {
+	padding:5px 10px;
+	background:lightgrey;
+	color:#fff;
+	margin:5px;
+	text-decoration: none;
+}
+
+ol.bjqs-markers li a{
+	text-decoration: none;
+}
+
+ol.bjqs-markers li.active-marker a,
+ol.bjqs-markers li a:hover
+{
+
+}
+
+p.bjqs-caption
+{
+opacity:0.7;
+transition:opacity 1s;
+color:white;
+}
+
+p.bjqs-caption:hover
+{
+opacity:1.0;}
+/* Basic jQuery Slider essential styles */
+ul.bjqs{position:absolute; list-style:none;padding:0;margin:0;}
+li.bjqs-slide{position:absolute; display:none;}
+ul.bjqs-controls{list-style:none;margin:0;padding:0;z-index:9999;}
+ul.bjqs-controls li a{position:absolute;}
+ul.bjqs-controls li.bjqs-next a{right:0px;top:0px;background-image:url('http://iconizer.net/files/Brightmix/orig/monotone_arrow_right.png');background-size:100% 100%;background-position:center center;height:50px;width:50px;}
+ul.bjqs-controls li.bjqs-prev a{left:0px;top:0px;background-image:url('http://cdn4.iconfinder.com/data/icons/brightmix/128/monotone_arrow_left_small.png');background-size:100% 100%;background-position:center center;height:50px;width:50px;}
+ol.bjqs-markers{list-style: none; padding: 0; width:100%;position:absolute;bottom:-50px;left:0px;}
+ol.bjqs-markers.h-centered{text-align: center;}
+ol.bjqs-markers li{display:inline;}
+ol.bjqs-markers li a{display:inline-block;}
+p.bjqs-caption{display:block;width:96%;margin:0;padding:2%;position:absolute;bottom:0;}
